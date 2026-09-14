@@ -55,8 +55,12 @@ publishes to NuGet with the version taken from the tag:
 git tag v0.1.0 && git push origin v0.1.0
 ```
 
-This needs a `NUGET_API_KEY` repository secret holding a nuget.org API key scoped to
-`LitterRobotApi`.
+Publishing uses nuget.org [trusted publishing](https://learn.microsoft.com/en-us/nuget/nuget-org/trusted-publishing),
+so there is no stored API key. It needs two things:
+
+- A trusted publishing policy on nuget.org for owner `nrspring`, repository `LitterRobotApi`,
+  workflow file `build.yml`.
+- A `NUGET_USER` repository secret holding the nuget.org username (profile name, not email).
 
 ## License
 
