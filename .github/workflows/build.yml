@@ -24,6 +24,7 @@ jobs:
           dotnet-version: |
             8.0.x
             10.0.x
+            11.0.x
 
       # Tag builds are released under the tag's version; everything else gets a
       # throwaway version so the pack step still exercises the same path.

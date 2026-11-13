@@ -3,7 +3,7 @@
 An unofficial .NET client for the Litter-Robot/Whisker API — Cognito sign-in and pet weight
 history via their GraphQL API, ported from [pylitterbot](https://github.com/natekspencer/pylitterbot).
 
-Targets `net8.0` and `net10.0`, with no package dependencies.
+Targets `net8.0`, `net10.0` and `net11.0`, with no package dependencies.
 
 ## Install
 
