@@ -10,7 +10,7 @@
 
   <PropertyGroup>
     <PackageId>LitterRobotApi</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Authors>Nick Spring</Authors>
     <Description>An unofficial .NET client for the Litter-Robot/Whisker API — Cognito sign-in and pet weight history via their GraphQL API, ported from pylitterbot.</Description>
     <PackageTags>litter-robot;litterrobot;whisker;pets;cats;api-client</PackageTags>
